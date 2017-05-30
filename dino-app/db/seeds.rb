@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-u1 = User.create!(username: "LBoyle", email: "louis@louis.com", password_digest: "dummy")
-u2 = User.create!(username: "Imran", email: "imran@imran.com", password_digest: "dummy")
-u3 = User.create!(username: "Lorenco", email: "laseq@laseq.com", password_digest: "dummy")
+u1 = User.create!(username: "LBoyle", email: "louis@louis.com", password: "password", password_confirmation: "password")
+u2 = User.create!(username: "Imran", email: "imran@imran.com", password: "password", password_confirmation: "password")
+u3 = User.create!(username: "Lorenco", email: "laseq@laseq.com", password: "password", password_confirmation: "password")
 
 d1 = Dinosaur.create!(name: "Dino 1", image: "http://fillmurray.com/300/300", period: "Jurassic", description: "description goes here")
 d2 = Dinosaur.create!(name: "Dino 2", image: "http://fillmurray.com/300/300", period: "Jurassic", description: "description goes here")
