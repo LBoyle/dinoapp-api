@@ -8,14 +8,14 @@
 
 u1 = User.create!(username: "LBoyle", email: "louis@louis.com", password: "password", password_confirmation: "password")
 u2 = User.create!(username: "Imran", email: "imran@imran.com", password: "password", password_confirmation: "password")
-u3 = User.create!(username: "Lorenco", email: "laseq@laseq.com", password: "password", password_confirmation: "password")
+u3 = User.create!(username: "Lourenco", email: "laseq@laseq.com", password: "password", password_confirmation: "password")
 
-d1 = Dinosaur.create!(name: "Dino 1", image: "http://fillmurray.com/300/300", period: "Jurassic", description: "description goes here")
-d2 = Dinosaur.create!(name: "Dino 2", image: "http://fillmurray.com/300/300", period: "Jurassic", description: "description goes here")
-d3 = Dinosaur.create!(name: "Dino 3", image: "http://fillmurray.com/300/300", period: "Jurassic", description: "description goes here")
+d1 = Dinosaur.create!(name: "T-Rex", image: "http://orig06.deviantart.net/ad17/f/2014/363/b/d/jurassic_world__tyrannosaurus_rex_v3_by_sonichedgehog2-d8brgjl.png", period: "Jurassic", description: "A fierce dinosaur")
+d2 = Dinosaur.create!(name: "Brachiosaurus", image: "http://dinosaurstop.com/wp-content/uploads/2015/03/brachiosaurus.jpg", period: "Cretaceous", description: "The biggest dinosaur")
+d3 = Dinosaur.create!(name: "Pterodactyl", image: "http://images.dinosaurpictures.org/pterodactyl_0345.jpg", period: "Jurassic", description: "A flying dinosaur")
 
 
-Comment.create!(body: "dummy comment", user: u1, dinosaur: d1)
-Comment.create!(body: "dummy comment", user: u2, dinosaur: d2)
-Comment.create!(body: "dummy comment", user: u3, dinosaur: d3)
-Comment.create!(body: "dummy comment", user: u1, dinosaur: d3)
+Comment.create!(body: "This is my favourite dinosaur", user: u1, dinosaur: d1)
+Comment.create!(body: "This dinosaur is so cool", user: u2, dinosaur: d2)
+Comment.create!(body: "Fascinating creature", user: u3, dinosaur: d3)
+Comment.create!(body: "Probably the coolest dinosaur", user: u1, dinosaur: d3)
