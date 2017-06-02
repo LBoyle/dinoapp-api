@@ -10,10 +10,3 @@ class CommentSerializer < ActiveModel::Serializer
     data
   end
 end
-
-def user
-  data = {}
-  data[:id] = object.user.id
-  data[:username] = object.user.username
-  data
-end
