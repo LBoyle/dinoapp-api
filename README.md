@@ -1,10 +1,12 @@
-#dinoapp-api
+# dinoapp-api
 
-##Summary
+A task during class on WDI at General Assembly. In groups, over about 4 hours.
+
+## Summary
 
 This is the back-end for a repository of dinosaurs, users can register and comment on them.
 
-####Tech used
+#### Tech used
 
 - Ruby on Rails api
 - bcrypt JWT authentication
@@ -13,10 +15,10 @@ This is the back-end for a repository of dinosaurs, users can register and comme
 - PostgreSQL database
 
 
-##Contributors
+## Contributors
 
-####LBoyle
+#### LBoyle
 
-####laseq
+#### laseq
 
-####Imran Mughal
+#### Imran Mughal
